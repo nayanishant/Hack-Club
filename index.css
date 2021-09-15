@@ -107,3 +107,20 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 /* Responsive Nav end */
+
+.text-one {
+    width: auto;
+    height: 500px;
+    background-image: url(Gallery/Design\ and\ all/02.jpg);
+    background-position: contain;
+    background-position: center center;
+    color: rgba(199, 195, 195, 0.493);
+    align-items: center;
+    padding: 10rem;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.text-one h1 {
+    text-align: center;
+}
