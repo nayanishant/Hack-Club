@@ -108,19 +108,69 @@ nav {
 }
 /* Responsive Nav end */
 
-.text-one {
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: auto;
     height: 500px;
-    background-image: url(Gallery/Design\ and\ all/02.jpg);
-    background-position: contain;
-    background-position: center center;
-    color: rgba(199, 195, 195, 0.493);
-    align-items: center;
-    padding: 10rem;
-    font-size: 50px;
-    letter-spacing: 10px;
+    background: url(Gallery/Design\ and\ all/02.jpg) no-repeat center center / cover;
+    color: #ccc;
 }
 
-.text-one h1 {
-    text-align: center;
+.text-wrap {
+    display: flex;
+}
+
+.text-wrap .static-text {
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.text-wrap .dynamic-text {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-text li {
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(3) infinite;
+}
+
+.dynamic-text li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-text li span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(5) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+@keyframes typing {
+    40%, 60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
 }
