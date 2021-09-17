@@ -173,4 +173,14 @@ header {
         font-size: 20px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .text-wrap h3 {
+        font-size: 40px;
+    }
+
+    .text-wrap p {
+        font-size: 20px;
+    }
+}
 /* Header end */
