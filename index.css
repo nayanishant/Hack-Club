@@ -111,7 +111,7 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 /* Responsive Nav end */
-
+/* Header start */
 header {
     display: flex;
     align-items: center;
@@ -120,3 +120,57 @@ header {
     height: 500px;
     background: url(Gallery/Design\ and\ all/02.jpg) no-repeat center center / cover;
 }
+
+.text-wrap {
+    align-items: center;
+    padding: 10rem;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgba(199, 195, 195, 0.493);
+}
+
+.text-wrap p {
+    text-align: center;
+}
+
+@media  screen and (max-width: 768px) {
+    header {
+        width: auto;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-wrap {
+        padding: 5px;
+    }
+
+    .text-wrap h3 {
+        font-size: 25px;
+    }
+
+    .text-wrap p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text-wrap {
+        padding: 5px;
+    }
+
+    .text-wrap h3 {
+        font-size: 40px;
+    }
+
+    .text-wrap p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .text-wrap h3 {
+        font-size: 20px;
+    }
+}
+/* Header end */
