@@ -18,6 +18,8 @@ nav {
     min-height: 8vh;
     background-color: darkcyan;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -185,5 +187,17 @@ header {
 }
 /* Header end */
 /* Footer start */
+.about {
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+}
 
+.about p {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 15px;
+}
 /* Footer end */
