@@ -16,7 +16,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: darkcyan;
+    background: rgb(133,136,149);
+    background: radial-gradient(circle, rgba(133,136,149,0.8860586470916492) 0%, rgba(47,43,44,0.9364788151588761) 100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky;
     top: 0;
@@ -187,17 +188,41 @@ header {
 }
 /* Header end */
 /* Footer start */
-.about {
-    height: 250px;
-    width: 250px;
-    margin: 40px;
+footer {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0.9364788151588761) 100%);
 }
 
-.about p {
+hr {
+    margin: 0 auto;
+    width: 100%;
+    border: 0;
+    border-radius: 100%;
+    height: 1px;
+    background-color: deepskyblue;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.about {
+    height: 250px;
+    width: 600px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p, h4 {
     display: flexbox;
     justify-content: center;
     align-items: center;
     font-family: cursive;
     font-size: 15px;
+    padding: 20px;
+}
+
+.about h4 {
+    font-size: 25px;
 }
 /* Footer end */
