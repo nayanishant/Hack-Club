@@ -3,3 +3,4 @@
 - Akshay Kumar Gautam
 - Nishant Nayan
 - Samarth Katti
+- Harshit Raj Kumar
