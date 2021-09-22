@@ -2,3 +2,4 @@
 
 - Akshay Kumar Gautam
 - Nishant Nayan
+- Samarth Katti
