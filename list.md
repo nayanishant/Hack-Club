@@ -4,3 +4,5 @@
 - Nishant Nayan
 - Samarth Katti
 - Manikant A S
+- Harshit Raj Kumar
+
