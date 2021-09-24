@@ -1,0 +1,13 @@
+.team-title {
+  color: orangered;
+}
+#override .card {
+  min-height: 18em;
+}
+#override .c-img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(43, 43, 43, 0.79);
+}
