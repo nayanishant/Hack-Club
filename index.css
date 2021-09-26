@@ -22,7 +22,7 @@ nav {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .logo {
@@ -79,7 +79,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -225,6 +225,19 @@ header {
   background-color: #eefbff;
   min-height: 50vh;
   padding: 20px;
+}
+
+.sponsers img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+#override .col-auto mx-auto a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Sponsers */
