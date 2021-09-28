@@ -131,13 +131,28 @@ header {
 .text-wrap {
   align-items: center;
   padding: 10rem;
-  font-size: 50px;
   letter-spacing: 10px;
   color: rgba(199, 195, 195, 0.493);
 }
 
+.text-wrap h3 {
+  text-align: center;
+  font-size: 90px;
+}
+
 .text-wrap p {
   text-align: center;
+  font-size: 40px;
+}
+
+@media screen and ( max-width: 520px) and (min-width: 320px) {
+  .text-wrap h3 {
+    font-size: 30px;
+  }
+
+  .text-wrap p {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -153,41 +168,21 @@ header {
   }
 
   .text-wrap h3 {
-    font-size: 25px;
+    font-size: 60px;
   }
 
   .text-wrap p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .text-wrap {
-    padding: 5px;
-  }
-
-  .text-wrap h3 {
-    font-size: 40px;
-  }
-
-  .text-wrap p {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 630px) {
   .text-wrap h3 {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .text-wrap h3 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .text-wrap p {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 /* Header end */
