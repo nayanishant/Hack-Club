@@ -153,9 +153,17 @@ header {
   .text-wrap p {
     font-size: 20px;
   }
+
+  .text-wrap {
+    padding: 2.5px;
+  }
+
+  .social-links a {
+    font-size: 20px;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 521px) and (max-width: 768px) {
   header {
     width: auto;
     height: 300px;
@@ -176,7 +184,7 @@ header {
   }
 }
 
-@media screen and (max-width: 630px) {
+/* @media screen and (max-width: 630px) {
   .text-wrap h3 {
     font-size: 50px;
   }
@@ -184,7 +192,7 @@ header {
   .text-wrap p {
     font-size: 25px;
   }
-}
+} */
 /* Header end */
 /* Team section */
 .teampage {
