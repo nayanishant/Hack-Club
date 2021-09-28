@@ -228,3 +228,27 @@ header {
   text-decoration: none;
   color: white;
 }
+
+/*Social media*/
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 40px;
+  height: 20vh;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 20px;
+  color: #b9babbe3;
+  font-size: 30px;
+}
+
+.social-links a:hover {
+  color: gainsboro;
+  opacity: 0.2;
+  text-shadow: 0 0 50px #fcfafb;
+}
+/*Social media*/
