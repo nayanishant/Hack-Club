@@ -110,27 +110,27 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: auto;
   height: 500px;
-  background: url(Gallery/Design\ and\ all/02.jpg) no-repeat center center /
-    cover;
+  /* background: url(Gallery/Design\ and\ all/02.jpg) no-repeat center center /
+    cover; */
 }
 
 .text-wrap {
-  align-items: center;
+  /* align-items: center; */
   padding: 10rem;
   letter-spacing: 10px;
   color: rgba(199, 195, 195, 0.493);
 }
 
 .text-wrap h3 {
-  text-align: center;
+  /* text-align: center; */
   font-size: 90px;
 }
 
 .text-wrap p {
-  text-align: center;
+  /* text-align: center; */
   font-size: 40px;
 }
 
