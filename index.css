@@ -17,7 +17,7 @@
   position: relative;
   justify-content: space-around;
   align-items: center;
-  background-color: #333;
+  background-color: #3cb68e;
   color: white;
   top: 0;
   position: sticky;
@@ -26,7 +26,7 @@
 
 .logo {
   font-size: 1.5rem;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .navbar-links {
@@ -98,7 +98,7 @@
   }
 
   .navbar-links ul li a {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .navbar-links.active {
@@ -108,33 +108,27 @@
 /* Responsive Nav end */
 /* Header start */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  width: auto;
-  height: 500px;
-  /* background: url(Gallery/Design\ and\ all/02.jpg) no-repeat center center /
-    cover; */
+  display: grid;
+  place-items: center;
+  height: 80vh;
+  background: white;
 }
 
 .text-wrap {
-  /* align-items: center; */
-  padding: 10rem;
-  letter-spacing: 10px;
-  color: rgba(199, 195, 195, 0.493);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: rgb(14, 14, 14);
 }
 
 .text-wrap h3 {
-  /* text-align: center; */
   font-size: 90px;
 }
 
 .text-wrap p {
-  /* text-align: center; */
   font-size: 40px;
 }
-
-@media screen and ( max-width: 520px) and (min-width: 320px) {
+@media screen and (max-width: 520px) and (min-width: 320px) {
   .text-wrap h3 {
     font-size: 30px;
   }
@@ -183,11 +177,12 @@ header {
   }
 } */
 /* Header end */
+
 /* Team section */
 .teampage {
   z-index: 0;
-  background-color: #273c4d;
-  min-height: 80vh;
+  background-color: #1d1d35;
+  min-height: 100vh;
   display: grid;
   place-items: center;
 }
@@ -211,13 +206,23 @@ header {
 }
 /* Team section */
 
+/* project section */
+.projectpage {
+  z-index: 0;
+  background-color: #3cb68e;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+/* project section */
+
 .footer-wrap {
   background-color: #212529;
   color: white;
-  min-height: 30vh;
+  min-height: 40vh;
   padding: 20px;
 }
-.footer-wrap .backtoindex {
+.footer-wrap {
   display: grid;
   place-items: center;
 }
@@ -245,7 +250,6 @@ header {
 
 .social-links a:hover {
   color: gainsboro;
-  opacity: 0.2;
   text-shadow: 0 0 50px #fcfafb;
 }
 /*Social media*/
