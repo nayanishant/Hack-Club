@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.events {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.eventlist {
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px -10px rgb(97, 97, 97, 0.75);
+  padding: 10px;
+}
+.eventlist > li {
+  padding: 1em;
+  margin: 3em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px -10px rgb(97, 97, 97, 0.75);
+  scale: 110%;
+  display: flex;
+  align-items: center;
+}
+.eventlist li img {
+  max-width: 160px;
+  max-height: 240px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+.current {
+  scale: 110%;
+  border-left: 5px solid green;
+}
+
+.gallery {
+  display: grid;
+  place-items: center;
+}
+.gallery-inner {
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px -10px rgb(97, 97, 97, 0.75);
+  padding: 10px;
+}
+#galleryCarousel .carousel-item > img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
