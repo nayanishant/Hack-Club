@@ -109,14 +109,16 @@
 /* Header start */
 header {
   display: grid;
-  place-items: center;
+  /* place-items: center; */
   height: 80vh;
   background: white;
 }
 
 .text-wrap {
   display: flex;
-  align-items: center;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
   height: 100%;
   color: rgb(14, 14, 14);
 }
