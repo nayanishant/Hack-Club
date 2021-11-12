@@ -50,9 +50,9 @@
   padding: 1rem;
 }
 
-.navbar-links li:hover {
-  background-color: #555;
-}
+/* .navbar-links li:hover {
+  text-decoration: underline;
+} */
 
 .toggle-button {
   position: absolute;
@@ -117,7 +117,8 @@ header {
 .text-wrap {
   display: flex;
   align-items: left;
-  justify-content: center;
+  padding-top: 7%;
+  /* justify-content: center; */
   flex-direction: column;
   height: 100%;
   color: rgb(14, 14, 14);
@@ -129,6 +130,7 @@ header {
 
 .text-wrap p {
   font-size: 40px;
+  padding-top: 9px;
 }
 @media screen and (max-width: 520px) and (min-width: 320px) {
   .text-wrap h3 {
