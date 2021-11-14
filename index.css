@@ -121,7 +121,7 @@ header {
   /* justify-content: center; */
   flex-direction: column;
   height: 100%;
-  margin-left: 100px;
+  padding-left: 100px;
   color: rgb(14, 14, 14);
 }
 
