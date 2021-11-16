@@ -108,10 +108,17 @@
 /* Responsive Nav end */
 /* Header start */
 header {
-  display: grid;
+  /* background-image: url("./project/images/10.jpg"); */
+  /* display: grid; */
   /* place-items: center; */
   height: 80vh;
-  background: white;
+  /* background-size: cover; */
+  background: linear-gradient(
+    to left,
+    #50C9C3,
+    #96DEDA,
+    snow
+  );
 }
 
 .text-wrap {
