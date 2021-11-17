@@ -47,8 +47,19 @@
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: rgb(230, 230, 230);
-  padding: 1rem;
+  color: seashell;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-links li a:hover {
+  border: seashell 1px solid;
+  border-radius: 5px;
+  background-color: seashell;
+  /* background-color: #50C9C3; */
+  color: #3cb68e;
 }
 
 /* .navbar-links li:hover {
@@ -208,6 +219,12 @@ header .slant{
   display: grid;
   place-items: center;
 }
+
+.teampage h2 {
+  font-size: 60px;
+  color: mistyrose;
+  font-family: "Montserrat";
+}
 .team-title {
   color: whitesmoke;
 }
@@ -236,6 +253,12 @@ header .slant{
   min-height: 100vh;
   display: grid;
   place-items: center;
+}
+
+.projectpage h2 {
+  font-size: 60px;
+  color: mistyrose;
+  font-family: "Montserrat";
 }
 
 #override .projectpage .c-img {
