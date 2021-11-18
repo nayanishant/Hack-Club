@@ -59,7 +59,7 @@
 .layers::after {
   content: attr(data-text);
   position: absolute;
-  width: 105%;
+  width: 100%;
   z-index: -1;
 }
 
@@ -389,6 +389,7 @@
 }
 
 @media (max-width: 768px) {
+
   .navbar {
     justify-content: space-around;
     flex-direction: column;
