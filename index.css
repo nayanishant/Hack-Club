@@ -624,6 +624,7 @@ header .slant{
 .section {
   text-align: center;
   background-color: #827397;
+  padding-top: 15px;
 }
 
 .section h2 {
