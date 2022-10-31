@@ -271,3 +271,60 @@ header {
   text-shadow: 0 0 50px #fcfafb;
 }
 /*Social media*/
+
+/* Farewell */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.section {
+  text-align: center;
+  background-color: #827397;
+}
+
+.section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13vmin;
+  line-height: 15vmin;
+  margin-left: 7%;
+}
+
+.farewel {
+  color: transparent;
+  background: conic-gradient(
+    #D9D7F1 12%, 
+    #BAABDA 12%, #BAABDA 33%, 
+    #E7FBBE 33%, #E7FBBE 55%, 
+    #FFCBCB 55%, #FFCBCB 70%, 
+    #B5DEFF 70%, #B5DEFF 87%, 
+    #F7D1BA 87%);
+  background-size: 7%;
+  background-clip: text;  
+  -webkit-background-clip: text;
+}
+
+.img-farewel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.box {
+  border: solid 5px transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(white, white), linear-gradient(315deg, #833ab4, #fd1d1d 50%, #fcb845);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  height: 200px;
+  width: 200px;
+}
+
+.box img {
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.name {
+  padding-top: 10px;
+}
