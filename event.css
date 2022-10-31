@@ -6,8 +6,19 @@
 
 .events {
   min-height: 100vh;
+  width: auto;
   display: grid;
   place-items: center;
+}
+
+@media (max-width: 768px) {
+  .events {
+    min-height: 130vh;
+    width: auto;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
 }
 
 .eventlist {
@@ -18,10 +29,12 @@
 }
 .eventlist > li {
   padding: 1em;
-  margin: 3em;
+  margin: 0;
+  margin-bottom: 1em;
   border-radius: 10px;
   box-shadow: 0px 0px 30px -10px rgb(97, 97, 97, 0.75);
-  scale: 110%;
+  scale: 100%;
+  width: auto;
   display: flex;
   align-items: center;
 }
